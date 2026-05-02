@@ -28,4 +28,5 @@ In each of the following terminals, run
 >> ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/code/robot_sim_nav/src/maps/map.yaml
 - Terminal 3
 >> cd ~code/robot_sim_nav
+>> source install/setup.bash
 >> ros2 run path_to_nav astar_nav
