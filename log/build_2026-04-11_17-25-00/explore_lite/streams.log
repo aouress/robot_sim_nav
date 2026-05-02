@@ -1,0 +1,103 @@
+[0.021s] Invoking command in '/home/aiden/code/robot_sim_nav/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/aiden/code/robot_sim_nav/src/m-explore-ros2/explore -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiden/code/robot_sim_nav/install/explore_lite
+[0.123s] -- The C compiler identification is GNU 13.3.0
+[0.200s] -- The CXX compiler identification is GNU 13.3.0
+[0.228s] -- Detecting C compiler ABI info
+[0.368s] -- Detecting C compiler ABI info - done
+[0.384s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.384s] -- Detecting C compile features
+[0.385s] -- Detecting C compile features - done
+[0.398s] -- Detecting CXX compiler ABI info
+[0.547s] -- Detecting CXX compiler ABI info - done
+[0.562s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.562s] -- Detecting CXX compile features
+[0.563s] -- Detecting CXX compile features - done
+[0.564s] -- BuilD for ROS2: jazzy
+[0.569s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.799s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.898s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.975s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.053s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.075s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.099s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.127s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.278s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.286s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.343s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.465s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.490s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.558s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.801s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.833s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.835s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.836s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.843s] -- Found nav2_msgs: 1.3.10 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[2.031s] -- Found map_msgs: 2.4.1 (/opt/ros/jazzy/share/map_msgs/cmake)
+[2.088s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.136s] -- Found nav2_costmap_2d: 1.3.10 (/opt/ros/jazzy/share/nav2_costmap_2d/cmake)
+[2.334s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.392s] -- Found explore_lite_msgs: 1.0.0 (/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake)
+[2.410s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.592s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.599s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.608s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.742s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.743s] -- Found Threads: TRUE  
+[2.757s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.758s] -- Configured cppcheck include dirs: /home/aiden/code/robot_sim_nav/src/m-explore-ros2/explore/include;$<BUILD_INTERFACE:/home/aiden/code/robot_sim_nav/src/m-explore-ros2/explore/include>
+[2.758s] -- Configured cppcheck exclude dirs and/or files: 
+[2.760s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.760s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.762s] -- Added test 'lint_cmake' to check CMake code style
+[2.764s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.767s] -- Added test 'uncrustify' to check C / C++ code style
+[2.767s] -- Configured uncrustify additional arguments: 
+[2.768s] -- Added test 'xmllint' to check XML markup files
+[2.773s] -- Configuring done (2.7s)
+[2.819s] -- Generating done (0.0s)
+[2.830s] -- Build files have been written to: /home/aiden/code/robot_sim_nav/build/explore_lite
+[2.850s] Invoked command in '/home/aiden/code/robot_sim_nav/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/aiden/code/robot_sim_nav/src/m-explore-ros2/explore -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aiden/code/robot_sim_nav/install/explore_lite
+[2.851s] Invoking command in '/home/aiden/code/robot_sim_nav/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/aiden/code/robot_sim_nav/build/explore_lite -- -j20 -l20
+[2.943s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.944s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.946s] [ 30%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[2.948s] [ 40%] [32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o[0m
+[2.949s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o[0m
+[3.756s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.819s] [ 60%] Built target gtest_main
+[7.076s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.160s] [ 70%] Built target gtest
+[7.194s] [ 80%] [32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o[0m
+[8.293s] [ 90%] [32m[1mLinking CXX executable test_explore[0m
+[8.452s] [ 90%] Built target test_explore
+[17.452s] [100%] [32m[1mLinking CXX executable explore[0m
+[18.546s] [100%] Built target explore
+[18.561s] Invoked command in '/home/aiden/code/robot_sim_nav/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/aiden/code/robot_sim_nav/build/explore_lite -- -j20 -l20
+[18.576s] Invoking command in '/home/aiden/code/robot_sim_nav/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/aiden/code/robot_sim_nav/build/explore_lite
+[18.589s] -- Install configuration: ""
+[18.589s] -- Execute custom install script
+[18.590s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/include/explore//costmap_client.h
+[18.603s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/include/explore//costmap_tools.h
+[18.617s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/include/explore//explore.h
+[18.628s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/include/explore//frontier_search.h
+[18.640s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/config/params.yaml
+[18.653s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[18.664s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[18.676s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/lib/explore_lite/explore
+[18.689s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[18.701s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[18.714s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[18.726s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[18.737s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/environment/path.sh
+[18.748s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/environment/path.dsv
+[18.758s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/local_setup.bash
+[18.769s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/local_setup.sh
+[18.780s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/local_setup.zsh
+[18.792s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/local_setup.dsv
+[18.803s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/package.dsv
+[18.816s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[18.827s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.838s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.849s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[18.859s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[18.870s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/package.xml
+[18.884s] Invoked command in '/home/aiden/code/robot_sim_nav/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/aiden/code/robot_sim_nav/build/explore_lite

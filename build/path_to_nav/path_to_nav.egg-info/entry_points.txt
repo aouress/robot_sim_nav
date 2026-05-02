@@ -1,0 +1,2 @@
+[console_scripts]
+astar_nav = path_to_nav.astar_nav:main

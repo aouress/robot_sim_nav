@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/explore_supervisor/explore_supervisor.egg-info/PKG-INFO
+../../build/explore_supervisor/explore_supervisor.egg-info/SOURCES.txt
+../../build/explore_supervisor/explore_supervisor.egg-info/dependency_links.txt
+../../build/explore_supervisor/explore_supervisor.egg-info/entry_points.txt
+../../build/explore_supervisor/explore_supervisor.egg-info/requires.txt
+../../build/explore_supervisor/explore_supervisor.egg-info/top_level.txt
+../../build/explore_supervisor/explore_supervisor.egg-info/zip-safe
+explore_supervisor/__init__.py
+explore_supervisor/explore_supervisor.py
+resource/explore_supervisor
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

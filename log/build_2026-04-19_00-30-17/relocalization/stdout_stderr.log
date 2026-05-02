@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/relocalization/relocalization.egg-info
+writing ../../build/relocalization/relocalization.egg-info/PKG-INFO
+writing dependency_links to ../../build/relocalization/relocalization.egg-info/dependency_links.txt
+writing entry points to ../../build/relocalization/relocalization.egg-info/entry_points.txt
+writing requirements to ../../build/relocalization/relocalization.egg-info/requires.txt
+writing top-level names to ../../build/relocalization/relocalization.egg-info/top_level.txt
+writing manifest file '../../build/relocalization/relocalization.egg-info/SOURCES.txt'
+reading manifest file '../../build/relocalization/relocalization.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/relocalization/relocalization.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aiden/code/robot_sim_nav/build/relocalization/build
+creating /home/aiden/code/robot_sim_nav/build/relocalization/build/lib
+creating /home/aiden/code/robot_sim_nav/build/relocalization/build/lib/relocalization
+copying relocalization/relocalize_then_nav.py -> /home/aiden/code/robot_sim_nav/build/relocalization/build/lib/relocalization
+copying relocalization/__init__.py -> /home/aiden/code/robot_sim_nav/build/relocalization/build/lib/relocalization
+running install
+running install_lib
+creating /home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization
+copying /home/aiden/code/robot_sim_nav/build/relocalization/build/lib/relocalization/relocalize_then_nav.py -> /home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization
+copying /home/aiden/code/robot_sim_nav/build/relocalization/build/lib/relocalization/__init__.py -> /home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization
+byte-compiling /home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization/relocalize_then_nav.py to relocalize_then_nav.cpython-312.pyc
+byte-compiling /home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/aiden/code/robot_sim_nav/install/relocalization/share/ament_index
+creating /home/aiden/code/robot_sim_nav/install/relocalization/share/ament_index/resource_index
+creating /home/aiden/code/robot_sim_nav/install/relocalization/share/ament_index/resource_index/packages
+copying resource/relocalization -> /home/aiden/code/robot_sim_nav/install/relocalization/share/ament_index/resource_index/packages
+copying package.xml -> /home/aiden/code/robot_sim_nav/install/relocalization/share/relocalization
+running install_egg_info
+Copying ../../build/relocalization/relocalization.egg-info to /home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization-0.0.0-py3.12.egg-info
+running install_scripts
+Installing relocalize_then_nav script to /home/aiden/code/robot_sim_nav/install/relocalization/lib/relocalization
+writing list of installed files to '/home/aiden/code/robot_sim_nav/build/relocalization/install.log'

@@ -1,0 +1,2 @@
+[console_scripts]
+relocalize_then_nav = relocalization.relocalize_then_nav:main

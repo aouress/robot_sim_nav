@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/explore_supervisor/explore_supervisor.egg-info/PKG-INFO
+writing dependency_links to ../../build/explore_supervisor/explore_supervisor.egg-info/dependency_links.txt
+writing entry points to ../../build/explore_supervisor/explore_supervisor.egg-info/entry_points.txt
+writing requirements to ../../build/explore_supervisor/explore_supervisor.egg-info/requires.txt
+writing top-level names to ../../build/explore_supervisor/explore_supervisor.egg-info/top_level.txt
+reading manifest file '../../build/explore_supervisor/explore_supervisor.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/explore_supervisor/explore_supervisor.egg-info/SOURCES.txt'
+running build
+running build_py
+copying explore_supervisor/explore_supervisor.py -> /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib/explore_supervisor
+running install
+running install_lib
+copying /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib/explore_supervisor/explore_supervisor.py -> /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor
+byte-compiling /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor/explore_supervisor.py to explore_supervisor.cpython-312.pyc
+running install_data
+copying package.xml -> /home/aiden/code/robot_sim_nav/install/explore_supervisor/share/explore_supervisor
+running install_egg_info
+removing '/home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/explore_supervisor/explore_supervisor.egg-info to /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor-0.0.0-py3.12.egg-info
+running install_scripts
+Installing explore_supervisor script to /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/explore_supervisor
+writing list of installed files to '/home/aiden/code/robot_sim_nav/build/explore_supervisor/install.log'

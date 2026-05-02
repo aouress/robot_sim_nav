@@ -1,0 +1,139 @@
+[0.024s] Invoking command in '/home/aiden/code/robot_sim_nav/build/explore_lite_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/aiden/code/robot_sim_nav/src/m-explore-ros2/explore_lite_msgs -DCMAKE_INSTALL_PREFIX=/home/aiden/code/robot_sim_nav/install/explore_lite_msgs
+[0.373s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.374s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.374s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.374s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.374s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.385s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.455s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.555s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.791s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.806s] -- Configuring done (0.8s)
+[0.835s] -- Generating done (0.0s)
+[0.842s] -- Build files have been written to: /home/aiden/code/robot_sim_nav/build/explore_lite_msgs
+[0.848s] Invoked command in '/home/aiden/code/robot_sim_nav/build/explore_lite_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/aiden/code/robot_sim_nav/src/m-explore-ros2/explore_lite_msgs -DCMAKE_INSTALL_PREFIX=/home/aiden/code/robot_sim_nav/install/explore_lite_msgs
+[0.848s] Invoking command in '/home/aiden/code/robot_sim_nav/build/explore_lite_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/aiden/code/robot_sim_nav/build/explore_lite_msgs -- -j20 -l20
+[0.894s] [  2%] Built target explore_lite_msgs__rosidl_generator_type_description
+[0.903s] [  2%] Built target ament_cmake_python_symlink_explore_lite_msgs
+[0.913s] [  5%] Built target explore_lite_msgs__cpp
+[0.919s] [ 20%] Built target explore_lite_msgs__rosidl_generator_c
+[0.938s] [ 29%] Built target explore_lite_msgs__rosidl_typesupport_introspection_c
+[0.939s] [ 38%] Built target explore_lite_msgs__rosidl_typesupport_fastrtps_cpp
+[0.940s] [ 47%] Built target explore_lite_msgs__rosidl_typesupport_c
+[0.941s] [ 55%] Built target explore_lite_msgs__rosidl_typesupport_introspection_cpp
+[0.942s] [ 64%] Built target explore_lite_msgs__rosidl_typesupport_fastrtps_c
+[0.942s] [ 73%] Built target explore_lite_msgs__rosidl_typesupport_cpp
+[0.961s] [ 73%] Built target explore_lite_msgs
+[0.979s] [ 76%] Built target explore_lite_msgs__py
+[1.003s] [ 82%] Built target explore_lite_msgs__rosidl_generator_py
+[1.029s] [100%] Built target explore_lite_msgs_s__rosidl_typesupport_fastrtps_c
+[1.029s] [100%] Built target explore_lite_msgs_s__rosidl_typesupport_c
+[1.029s] [100%] Built target explore_lite_msgs_s__rosidl_typesupport_introspection_c
+[1.117s] running egg_info
+[1.135s] writing explore_lite_msgs.egg-info/PKG-INFO
+[1.136s] writing dependency_links to explore_lite_msgs.egg-info/dependency_links.txt
+[1.136s] writing top-level names to explore_lite_msgs.egg-info/top_level.txt
+[1.190s] reading manifest file 'explore_lite_msgs.egg-info/SOURCES.txt'
+[1.190s] writing manifest file 'explore_lite_msgs.egg-info/SOURCES.txt'
+[1.215s] [100%] Built target ament_cmake_python_build_explore_lite_msgs_egg
+[1.226s] Invoked command in '/home/aiden/code/robot_sim_nav/build/explore_lite_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/aiden/code/robot_sim_nav/build/explore_lite_msgs -- -j20 -l20
+[1.234s] Invoking command in '/home/aiden/code/robot_sim_nav/build/explore_lite_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/aiden/code/robot_sim_nav/build/explore_lite_msgs
+[1.241s] -- Install configuration: ""
+[1.241s] -- Execute custom install script
+[1.241s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/ament_index/resource_index/rosidl_interfaces/explore_lite_msgs
+[1.242s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/msg/ExploreStatus.json
+[1.242s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__functions.h
+[1.242s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__struct.h
+[1.242s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__type_support.h
+[1.242s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/explore_status.h
+[1.242s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.243s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/library_path.sh
+[1.243s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/library_path.dsv
+[1.243s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__rosidl_typesupport_fastrtps_c.h
+[1.243s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.243s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__rosidl_typesupport_introspection_c.h
+[1.243s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.244s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__builder.hpp
+[1.244s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__struct.hpp
+[1.244s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__traits.hpp
+[1.244s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__type_support.hpp
+[1.244s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/explore_status.hpp
+[1.244s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.245s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.245s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.245s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__rosidl_typesupport_introspection_cpp.hpp
+[1.245s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/pythonpath.sh
+[1.245s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/pythonpath.dsv
+[1.246s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs-1.0.0-py3.12.egg-info/PKG-INFO
+[1.246s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs-1.0.0-py3.12.egg-info/SOURCES.txt
+[1.246s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs-1.0.0-py3.12.egg-info/dependency_links.txt
+[1.246s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs-1.0.0-py3.12.egg-info/top_level.txt
+[1.246s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/__init__.py
+[1.246s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_c.c
+[1.247s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.247s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.247s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_c.so
+[1.247s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.247s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_introspection_c.so
+[1.247s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg/__init__.py
+[1.247s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg/_explore_status.py
+[1.247s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg/_explore_status_s.c
+[1.248s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.248s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_introspection_c.so
+[1.248s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_c.so
+[1.248s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/msg/ExploreStatus.idl
+[1.248s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/msg/ExploreStatus.msg
+[1.248s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/ament_index/resource_index/package_run_dependencies/explore_lite_msgs
+[1.249s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/ament_index/resource_index/parent_prefix_path/explore_lite_msgs
+[1.249s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/ament_prefix_path.sh
+[1.249s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/ament_prefix_path.dsv
+[1.249s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/path.sh
+[1.249s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/path.dsv
+[1.249s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/local_setup.bash
+[1.249s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/local_setup.sh
+[1.250s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/local_setup.zsh
+[1.250s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/local_setup.dsv
+[1.250s] -- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/package.dsv
+[1.259s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/ament_index/resource_index/packages/explore_lite_msgs
+[1.260s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/rosidl_cmake-extras.cmake
+[1.260s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.260s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.260s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.260s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.260s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.260s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.260s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgsConfig.cmake
+[1.261s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgsConfig-version.cmake
+[1.261s] -- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/package.xml
+[1.261s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_generator_c.so
+[1.261s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_fastrtps_c.so
+[1.261s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_introspection_c.so
+[1.262s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_c.so
+[1.262s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.262s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_introspection_cpp.so
+[1.262s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_cpp.so
+[1.298s] Listing '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs'...
+[1.298s] Compiling '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/__init__.py'...
+[1.299s] Listing '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg'...
+[1.302s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_generator_py.so
+[1.302s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_cExport.cmake
+[1.302s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.302s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.303s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.303s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.303s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.303s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_cExport.cmake
+[1.303s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.303s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_cppExport.cmake
+[1.303s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.303s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.304s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.304s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.305s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_cppExport.cmake
+[1.305s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.305s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_pyExport.cmake
+[1.305s] -- Up-to-date: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.305s] Invoked command in '/home/aiden/code/robot_sim_nav/build/explore_lite_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/aiden/code/robot_sim_nav/build/explore_lite_msgs

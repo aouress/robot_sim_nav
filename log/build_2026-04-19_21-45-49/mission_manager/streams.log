@@ -1,0 +1,30 @@
+[1.096s] Invoking command in '/home/aiden/code/robot_sim_nav/src/mission_manager': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aiden/code/robot_sim_nav/build/mission_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aiden/code/robot_sim_nav/install/mission_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_manager build --build-base /home/aiden/code/robot_sim_nav/build/mission_manager/build install --record /home/aiden/code/robot_sim_nav/build/mission_manager/install.log --single-version-externally-managed install_data
+[1.319s] running egg_info
+[1.336s] writing ../../build/mission_manager/mission_manager.egg-info/PKG-INFO
+[1.336s] writing dependency_links to ../../build/mission_manager/mission_manager.egg-info/dependency_links.txt
+[1.337s] writing entry points to ../../build/mission_manager/mission_manager.egg-info/entry_points.txt
+[1.337s] writing requirements to ../../build/mission_manager/mission_manager.egg-info/requires.txt
+[1.337s] writing top-level names to ../../build/mission_manager/mission_manager.egg-info/top_level.txt
+[1.373s] reading manifest file '../../build/mission_manager/mission_manager.egg-info/SOURCES.txt'
+[1.374s] adding license file 'LICENSE'
+[1.374s] writing manifest file '../../build/mission_manager/mission_manager.egg-info/SOURCES.txt'
+[1.374s] running build
+[1.374s] running build_py
+[1.374s] copying mission_manager/dep_slam_and_explore.py -> /home/aiden/code/robot_sim_nav/build/mission_manager/build/lib/mission_manager
+[1.375s] copying mission_manager/slam_and_explore.py -> /home/aiden/code/robot_sim_nav/build/mission_manager/build/lib/mission_manager
+[1.375s] running install
+[1.379s] running install_lib
+[1.398s] copying /home/aiden/code/robot_sim_nav/build/mission_manager/build/lib/mission_manager/dep_slam_and_explore.py -> /home/aiden/code/robot_sim_nav/install/mission_manager/lib/python3.12/site-packages/mission_manager
+[1.398s] copying /home/aiden/code/robot_sim_nav/build/mission_manager/build/lib/mission_manager/slam_and_explore.py -> /home/aiden/code/robot_sim_nav/install/mission_manager/lib/python3.12/site-packages/mission_manager
+[1.398s] byte-compiling /home/aiden/code/robot_sim_nav/install/mission_manager/lib/python3.12/site-packages/mission_manager/dep_slam_and_explore.py to dep_slam_and_explore.cpython-312.pyc
+[1.401s] byte-compiling /home/aiden/code/robot_sim_nav/install/mission_manager/lib/python3.12/site-packages/mission_manager/slam_and_explore.py to slam_and_explore.cpython-312.pyc
+[1.402s] running install_data
+[1.402s] running install_egg_info
+[1.421s] removing '/home/aiden/code/robot_sim_nav/install/mission_manager/lib/python3.12/site-packages/mission_manager-0.0.0-py3.12.egg-info' (and everything under it)
+[1.422s] Copying ../../build/mission_manager/mission_manager.egg-info to /home/aiden/code/robot_sim_nav/install/mission_manager/lib/python3.12/site-packages/mission_manager-0.0.0-py3.12.egg-info
+[1.422s] running install_scripts
+[1.536s] Installing amcl_and_nav script to /home/aiden/code/robot_sim_nav/install/mission_manager/lib/mission_manager
+[1.536s] Installing mission_manager script to /home/aiden/code/robot_sim_nav/install/mission_manager/lib/mission_manager
+[1.536s] Installing slam_and_explore script to /home/aiden/code/robot_sim_nav/install/mission_manager/lib/mission_manager
+[1.537s] writing list of installed files to '/home/aiden/code/robot_sim_nav/build/mission_manager/install.log'
+[1.562s] Invoked command in '/home/aiden/code/robot_sim_nav/src/mission_manager' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aiden/code/robot_sim_nav/build/mission_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aiden/code/robot_sim_nav/install/mission_manager/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_manager build --build-base /home/aiden/code/robot_sim_nav/build/mission_manager/build install --record /home/aiden/code/robot_sim_nav/build/mission_manager/install.log --single-version-externally-managed install_data

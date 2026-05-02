@@ -1,0 +1,38 @@
+[0.938s] Invoking command in '/home/aiden/code/robot_sim_nav/src/explore_supervisor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aiden/code/robot_sim_nav/build/explore_supervisor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/explore_supervisor build --build-base /home/aiden/code/robot_sim_nav/build/explore_supervisor/build install --record /home/aiden/code/robot_sim_nav/build/explore_supervisor/install.log --single-version-externally-managed install_data
+[1.197s] running egg_info
+[1.197s] creating ../../build/explore_supervisor/explore_supervisor.egg-info
+[1.215s] writing ../../build/explore_supervisor/explore_supervisor.egg-info/PKG-INFO
+[1.215s] writing dependency_links to ../../build/explore_supervisor/explore_supervisor.egg-info/dependency_links.txt
+[1.215s] writing entry points to ../../build/explore_supervisor/explore_supervisor.egg-info/entry_points.txt
+[1.216s] writing requirements to ../../build/explore_supervisor/explore_supervisor.egg-info/requires.txt
+[1.216s] writing top-level names to ../../build/explore_supervisor/explore_supervisor.egg-info/top_level.txt
+[1.216s] writing manifest file '../../build/explore_supervisor/explore_supervisor.egg-info/SOURCES.txt'
+[1.253s] reading manifest file '../../build/explore_supervisor/explore_supervisor.egg-info/SOURCES.txt'
+[1.253s] adding license file 'LICENSE'
+[1.254s] writing manifest file '../../build/explore_supervisor/explore_supervisor.egg-info/SOURCES.txt'
+[1.254s] running build
+[1.254s] running build_py
+[1.254s] creating /home/aiden/code/robot_sim_nav/build/explore_supervisor/build
+[1.254s] creating /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib
+[1.254s] creating /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib/explore_supervisor
+[1.254s] copying explore_supervisor/__init__.py -> /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib/explore_supervisor
+[1.254s] copying explore_supervisor/explorer_supervisor.py -> /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib/explore_supervisor
+[1.254s] running install
+[1.259s] running install_lib
+[1.281s] creating /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor
+[1.281s] copying /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib/explore_supervisor/__init__.py -> /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor
+[1.281s] copying /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib/explore_supervisor/explorer_supervisor.py -> /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor
+[1.282s] byte-compiling /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor/__init__.py to __init__.cpython-312.pyc
+[1.282s] byte-compiling /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor/explorer_supervisor.py to explorer_supervisor.cpython-312.pyc
+[1.283s] running install_data
+[1.283s] creating /home/aiden/code/robot_sim_nav/install/explore_supervisor/share/ament_index
+[1.283s] creating /home/aiden/code/robot_sim_nav/install/explore_supervisor/share/ament_index/resource_index
+[1.283s] creating /home/aiden/code/robot_sim_nav/install/explore_supervisor/share/ament_index/resource_index/packages
+[1.283s] copying resource/explore_supervisor -> /home/aiden/code/robot_sim_nav/install/explore_supervisor/share/ament_index/resource_index/packages
+[1.283s] copying package.xml -> /home/aiden/code/robot_sim_nav/install/explore_supervisor/share/explore_supervisor
+[1.283s] running install_egg_info
+[1.303s] Copying ../../build/explore_supervisor/explore_supervisor.egg-info to /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor-0.0.0-py3.12.egg-info
+[1.303s] running install_scripts
+[1.426s] Installing explore_supervisor script to /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/explore_supervisor
+[1.427s] writing list of installed files to '/home/aiden/code/robot_sim_nav/build/explore_supervisor/install.log'
+[1.453s] Invoked command in '/home/aiden/code/robot_sim_nav/src/explore_supervisor' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aiden/code/robot_sim_nav/build/explore_supervisor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/explore_supervisor build --build-base /home/aiden/code/robot_sim_nav/build/explore_supervisor/build install --record /home/aiden/code/robot_sim_nav/build/explore_supervisor/install.log --single-version-externally-managed install_data

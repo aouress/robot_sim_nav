@@ -1,0 +1,294 @@
+[0.000000] (-) TimerEvent: {}
+[0.000638] (-) JobUnselected: {'identifier': 'explore_lite'}
+[0.000986] (-) JobUnselected: {'identifier': 'multirobot_map_merge'}
+[0.001028] (explore_lite_msgs) JobQueued: {'identifier': 'explore_lite_msgs', 'dependencies': OrderedDict()}
+[0.001050] (explore_lite_msgs) JobStarted: {'identifier': 'explore_lite_msgs'}
+[0.021950] (explore_lite_msgs) JobProgress: {'identifier': 'explore_lite_msgs', 'progress': 'cmake'}
+[0.022589] (explore_lite_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/aiden/code/robot_sim_nav/src/m-explore-ros2/explore_lite_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aiden/code/robot_sim_nav/install/explore_lite_msgs'], 'cwd': '/home/aiden/code/robot_sim_nav/build/explore_lite_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'aiden', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aiden', 'CYCLONEDDS_URI': '/home/aiden/mil2/cyclone.xml', 'OLDPWD': '/home/aiden', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2805', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/home/aiden/mil2', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aiden', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aiden', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aiden-XPS-15-9530:@/tmp/.ICE-unix/2562,unix/aiden-XPS-15-9530:/tmp/.ICE-unix/2562', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/44373792_2c2c_4f25_a3b4_3ead7b11f4d2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.J8CGN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '37', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aiden/code/robot_sim_nav/build/explore_lite_msgs', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PICO_SDK_PATH': '/home/aiden/pico/pico-sdk', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/aiden/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099809] (-) TimerEvent: {}
+[0.200293] (-) TimerEvent: {}
+[0.292690] (explore_lite_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300494] (-) TimerEvent: {}
+[0.400893] (-) TimerEvent: {}
+[0.461753] (explore_lite_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.496240] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501062] (-) TimerEvent: {}
+[0.601385] (-) TimerEvent: {}
+[0.649425] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.662674] (explore_lite_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.664201] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.665117] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.682254] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701484] (-) TimerEvent: {}
+[0.801896] (-) TimerEvent: {}
+[0.834669] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.849052] (explore_lite_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.849549] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.850323] (explore_lite_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.866011] (explore_lite_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.902096] (-) TimerEvent: {}
+[1.002413] (-) TimerEvent: {}
+[1.094443] (explore_lite_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.102524] (-) TimerEvent: {}
+[1.202857] (-) TimerEvent: {}
+[1.225395] (explore_lite_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.303046] (-) TimerEvent: {}
+[1.316771] (explore_lite_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.334767] (explore_lite_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.403231] (-) TimerEvent: {}
+[1.443556] (explore_lite_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.503405] (-) TimerEvent: {}
+[1.524376] (explore_lite_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.603523] (-) TimerEvent: {}
+[1.703901] (-) TimerEvent: {}
+[1.804308] (-) TimerEvent: {}
+[1.904673] (-) TimerEvent: {}
+[2.005048] (-) TimerEvent: {}
+[2.105440] (-) TimerEvent: {}
+[2.205824] (-) TimerEvent: {}
+[2.306240] (-) TimerEvent: {}
+[2.394898] (explore_lite_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.406309] (-) TimerEvent: {}
+[2.506650] (-) TimerEvent: {}
+[2.607051] (-) TimerEvent: {}
+[2.707404] (-) TimerEvent: {}
+[2.807780] (-) TimerEvent: {}
+[2.908187] (-) TimerEvent: {}
+[3.008479] (-) TimerEvent: {}
+[3.060054] (explore_lite_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.108604] (-) TimerEvent: {}
+[3.208974] (-) TimerEvent: {}
+[3.309309] (-) TimerEvent: {}
+[3.409618] (-) TimerEvent: {}
+[3.509913] (-) TimerEvent: {}
+[3.610226] (-) TimerEvent: {}
+[3.710617] (-) TimerEvent: {}
+[3.811033] (-) TimerEvent: {}
+[3.908636] (explore_lite_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.911224] (-) TimerEvent: {}
+[3.915248] (explore_lite_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.011438] (-) TimerEvent: {}
+[4.106796] (explore_lite_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.111544] (-) TimerEvent: {}
+[4.211887] (-) TimerEvent: {}
+[4.312277] (-) TimerEvent: {}
+[4.412654] (-) TimerEvent: {}
+[4.513094] (-) TimerEvent: {}
+[4.613389] (-) TimerEvent: {}
+[4.713726] (-) TimerEvent: {}
+[4.769725] (explore_lite_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.813927] (-) TimerEvent: {}
+[4.831450] (explore_lite_msgs) StdoutLine: {'line': b'-- Configuring done (4.7s)\n'}
+[4.867872] (explore_lite_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.880001] (explore_lite_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/aiden/code/robot_sim_nav/build/explore_lite_msgs\n'}
+[4.888396] (explore_lite_msgs) CommandEnded: {'returncode': 0}
+[4.888789] (explore_lite_msgs) JobProgress: {'identifier': 'explore_lite_msgs', 'progress': 'build'}
+[4.888815] (explore_lite_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aiden/code/robot_sim_nav/build/explore_lite_msgs', '--', '-j20', '-l20'], 'cwd': '/home/aiden/code/robot_sim_nav/build/explore_lite_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'aiden', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aiden', 'CYCLONEDDS_URI': '/home/aiden/mil2/cyclone.xml', 'OLDPWD': '/home/aiden', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2805', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/home/aiden/mil2', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aiden', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aiden', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aiden-XPS-15-9530:@/tmp/.ICE-unix/2562,unix/aiden-XPS-15-9530:/tmp/.ICE-unix/2562', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/44373792_2c2c_4f25_a3b4_3ead7b11f4d2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.J8CGN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '37', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aiden/code/robot_sim_nav/build/explore_lite_msgs', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PICO_SDK_PATH': '/home/aiden/pico/pico-sdk', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/aiden/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.914123] (-) TimerEvent: {}
+[4.969447] (explore_lite_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.984878] (explore_lite_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_explore_lite_msgs\n'}
+[5.014307] (-) TimerEvent: {}
+[5.114761] (-) TimerEvent: {}
+[5.215133] (-) TimerEvent: {}
+[5.267570] (explore_lite_msgs) StdoutLine: {'line': b'[  2%] Built target explore_lite_msgs__rosidl_generator_type_description\n'}
+[5.284414] (explore_lite_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.295505] (explore_lite_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.308685] (explore_lite_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.310558] (explore_lite_msgs) StdoutLine: {'line': b'creating explore_lite_msgs.egg-info\n'}
+[5.315243] (-) TimerEvent: {}
+[5.341391] (explore_lite_msgs) StdoutLine: {'line': b'writing explore_lite_msgs.egg-info/PKG-INFO\n'}
+[5.341780] (explore_lite_msgs) StdoutLine: {'line': b'writing dependency_links to explore_lite_msgs.egg-info/dependency_links.txt\n'}
+[5.341919] (explore_lite_msgs) StdoutLine: {'line': b'writing top-level names to explore_lite_msgs.egg-info/top_level.txt\n'}
+[5.342003] (explore_lite_msgs) StdoutLine: {'line': b"writing manifest file 'explore_lite_msgs.egg-info/SOURCES.txt'\n"}
+[5.415360] (-) TimerEvent: {}
+[5.434699] (explore_lite_msgs) StdoutLine: {'line': b"reading manifest file 'explore_lite_msgs.egg-info/SOURCES.txt'\n"}
+[5.435417] (explore_lite_msgs) StdoutLine: {'line': b"writing manifest file 'explore_lite_msgs.egg-info/SOURCES.txt'\n"}
+[5.469428] (explore_lite_msgs) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_explore_lite_msgs_egg\n'}
+[5.515443] (-) TimerEvent: {}
+[5.609766] (explore_lite_msgs) StdoutLine: {'line': b'[  8%] Built target explore_lite_msgs__cpp\n'}
+[5.615561] (-) TimerEvent: {}
+[5.630401] (explore_lite_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/explore_lite_msgs__rosidl_generator_c.dir/rosidl_generator_c/explore_lite_msgs/msg/detail/explore_status__functions.c.o\x1b[0m\n'}
+[5.631014] (explore_lite_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/explore_lite_msgs__rosidl_generator_c.dir/rosidl_generator_c/explore_lite_msgs/msg/detail/explore_status__description.c.o\x1b[0m\n'}
+[5.631591] (explore_lite_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/explore_lite_msgs__rosidl_generator_c.dir/rosidl_generator_c/explore_lite_msgs/msg/detail/explore_status__type_support.c.o\x1b[0m\n'}
+[5.715766] (-) TimerEvent: {}
+[5.744888] (explore_lite_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libexplore_lite_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[5.803612] (explore_lite_msgs) StdoutLine: {'line': b'[ 20%] Built target explore_lite_msgs__rosidl_generator_c\n'}
+[5.815886] (-) TimerEvent: {}
+[5.820799] (explore_lite_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.821720] (explore_lite_msgs) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.824028] (explore_lite_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.824682] (explore_lite_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.825046] (explore_lite_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.825763] (explore_lite_msgs) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.916060] (-) TimerEvent: {}
+[6.016627] (-) TimerEvent: {}
+[6.117129] (-) TimerEvent: {}
+[6.156297] (explore_lite_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/explore_lite_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/explore_lite_msgs/msg/explore_status__type_support.cpp.o\x1b[0m\n'}
+[6.158028] (explore_lite_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/explore_lite_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/explore_lite_msgs/msg/explore_status__type_support.cpp.o\x1b[0m\n'}
+[6.161214] (explore_lite_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/explore_lite_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/explore_lite_msgs/msg/detail/explore_status__type_support.cpp.o\x1b[0m\n'}
+[6.166606] (explore_lite_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/explore_lite_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/explore_lite_msgs/msg/detail/explore_status__type_support.c.o\x1b[0m\n'}
+[6.190025] (explore_lite_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/explore_lite_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/explore_lite_msgs/msg/detail/explore_status__type_support_c.cpp.o\x1b[0m\n'}
+[6.198849] (explore_lite_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/explore_lite_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/explore_lite_msgs/msg/detail/dds_fastrtps/explore_status__type_support.cpp.o\x1b[0m\n'}
+[6.217285] (-) TimerEvent: {}
+[6.227417] (explore_lite_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libexplore_lite_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.246007] (explore_lite_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libexplore_lite_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.272862] (explore_lite_msgs) StdoutLine: {'line': b'[ 61%] Built target explore_lite_msgs__rosidl_typesupport_introspection_c\n'}
+[6.304890] (explore_lite_msgs) StdoutLine: {'line': b'[ 61%] Built target explore_lite_msgs__rosidl_typesupport_c\n'}
+[6.317463] (-) TimerEvent: {}
+[6.417716] (-) TimerEvent: {}
+[6.484204] (explore_lite_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libexplore_lite_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.512510] (explore_lite_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libexplore_lite_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.517802] (-) TimerEvent: {}
+[6.544383] (explore_lite_msgs) StdoutLine: {'line': b'[ 67%] Built target explore_lite_msgs__rosidl_typesupport_cpp\n'}
+[6.601150] (explore_lite_msgs) StdoutLine: {'line': b'[ 67%] Built target explore_lite_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.617941] (-) TimerEvent: {}
+[6.677457] (explore_lite_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libexplore_lite_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.690842] (explore_lite_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libexplore_lite_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.718158] (-) TimerEvent: {}
+[6.768741] (explore_lite_msgs) StdoutLine: {'line': b'[ 73%] Built target explore_lite_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.780685] (explore_lite_msgs) StdoutLine: {'line': b'[ 73%] Built target explore_lite_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.813480] (explore_lite_msgs) StdoutLine: {'line': b'[ 73%] Built target explore_lite_msgs\n'}
+[6.818313] (-) TimerEvent: {}
+[6.848485] (explore_lite_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.918605] (-) TimerEvent: {}
+[7.019152] (-) TimerEvent: {}
+[7.119729] (-) TimerEvent: {}
+[7.220106] (-) TimerEvent: {}
+[7.241905] (explore_lite_msgs) StdoutLine: {'line': b'[ 76%] Built target explore_lite_msgs__py\n'}
+[7.272443] (explore_lite_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/explore_lite_msgs__rosidl_generator_py.dir/rosidl_generator_py/explore_lite_msgs/msg/_explore_status_s.c.o\x1b[0m\n'}
+[7.320341] (-) TimerEvent: {}
+[7.420809] (-) TimerEvent: {}
+[7.460350] (explore_lite_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libexplore_lite_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[7.518503] (explore_lite_msgs) StdoutLine: {'line': b'[ 82%] Built target explore_lite_msgs__rosidl_generator_py\n'}
+[7.520906] (-) TimerEvent: {}
+[7.555330] (explore_lite_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/explore_lite_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.557171] (explore_lite_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/explore_lite_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.558371] (explore_lite_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/explore_lite_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.621151] (-) TimerEvent: {}
+[7.686636] (explore_lite_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.687314] (explore_lite_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.690316] (explore_lite_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.721328] (-) TimerEvent: {}
+[7.747667] (explore_lite_msgs) StdoutLine: {'line': b'[100%] Built target explore_lite_msgs_s__rosidl_typesupport_introspection_c\n'}
+[7.751874] (explore_lite_msgs) StdoutLine: {'line': b'[100%] Built target explore_lite_msgs_s__rosidl_typesupport_c\n'}
+[7.753611] (explore_lite_msgs) StdoutLine: {'line': b'[100%] Built target explore_lite_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[7.775454] (explore_lite_msgs) CommandEnded: {'returncode': 0}
+[7.776689] (explore_lite_msgs) JobProgress: {'identifier': 'explore_lite_msgs', 'progress': 'install'}
+[7.792544] (explore_lite_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aiden/code/robot_sim_nav/build/explore_lite_msgs'], 'cwd': '/home/aiden/code/robot_sim_nav/build/explore_lite_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'aiden', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aiden', 'CYCLONEDDS_URI': '/home/aiden/mil2/cyclone.xml', 'OLDPWD': '/home/aiden', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2805', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/home/aiden/mil2', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aiden', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aiden', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aiden-XPS-15-9530:@/tmp/.ICE-unix/2562,unix/aiden-XPS-15-9530:/tmp/.ICE-unix/2562', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/44373792_2c2c_4f25_a3b4_3ead7b11f4d2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.J8CGN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '37', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aiden/code/robot_sim_nav/build/explore_lite_msgs', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PICO_SDK_PATH': '/home/aiden/pico/pico-sdk', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/aiden/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.807450] (explore_lite_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.808348] (explore_lite_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.808697] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/ament_index/resource_index/rosidl_interfaces/explore_lite_msgs\n'}
+[7.821088] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/msg/ExploreStatus.json\n'}
+[7.821380] (-) TimerEvent: {}
+[7.834295] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__functions.h\n'}
+[7.848722] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__struct.h\n'}
+[7.860104] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__type_support.h\n'}
+[7.871406] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/explore_status.h\n'}
+[7.884419] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.895442] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/library_path.sh\n'}
+[7.905756] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/library_path.dsv\n'}
+[7.917259] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__rosidl_typesupport_fastrtps_c.h\n'}
+[7.921489] (-) TimerEvent: {}
+[7.930107] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.942634] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__rosidl_typesupport_introspection_c.h\n'}
+[7.954206] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.967939] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__builder.hpp\n'}
+[7.979808] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__struct.hpp\n'}
+[7.991247] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__traits.hpp\n'}
+[8.001915] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__type_support.hpp\n'}
+[8.012987] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/explore_status.hpp\n'}
+[8.021687] (-) TimerEvent: {}
+[8.024486] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.036863] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.051233] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.062825] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/include/explore_lite_msgs/explore_lite_msgs/msg/detail/explore_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.073322] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/pythonpath.sh\n'}
+[8.083418] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/pythonpath.dsv\n'}
+[8.093816] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs-1.0.0-py3.12.egg-info/PKG-INFO\n'}
+[8.103704] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs-1.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[8.113383] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs-1.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[8.121887] (-) TimerEvent: {}
+[8.123433] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs-1.0.0-py3.12.egg-info/top_level.txt\n'}
+[8.136466] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/__init__.py\n'}
+[8.148177] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[8.161165] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.173194] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/_explore_lite_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.184276] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_c.so\n'}
+[8.194949] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[8.205115] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[8.217633] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg/__init__.py\n'}
+[8.222084] (-) TimerEvent: {}
+[8.227452] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg/_explore_status.py\n'}
+[8.240820] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg/_explore_status_s.c\n'}
+[8.254381] (explore_lite_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[8.254861] (explore_lite_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[8.255142] (explore_lite_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/explore_lite_msgs_s__rosidl_typesupport_c.so\n'}
+[8.255452] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/msg/ExploreStatus.idl\n'}
+[8.266353] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/msg/ExploreStatus.msg\n'}
+[8.278989] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/ament_index/resource_index/package_run_dependencies/explore_lite_msgs\n'}
+[8.289274] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/ament_index/resource_index/parent_prefix_path/explore_lite_msgs\n'}
+[8.300546] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/ament_prefix_path.sh\n'}
+[8.311926] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/ament_prefix_path.dsv\n'}
+[8.322273] (-) TimerEvent: {}
+[8.322567] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/path.sh\n'}
+[8.335534] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/environment/path.dsv\n'}
+[8.347360] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/local_setup.bash\n'}
+[8.360039] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/local_setup.sh\n'}
+[8.372013] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/local_setup.zsh\n'}
+[8.383144] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/local_setup.dsv\n'}
+[8.393973] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/package.dsv\n'}
+[8.403876] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/ament_index/resource_index/packages/explore_lite_msgs\n'}
+[8.414163] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[8.422361] (-) TimerEvent: {}
+[8.423633] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.437995] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.452048] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.464473] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.475261] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.485374] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.496261] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgsConfig.cmake\n'}
+[8.506043] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgsConfig-version.cmake\n'}
+[8.516258] (explore_lite_msgs) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/package.xml\n'}
+[8.522549] (-) TimerEvent: {}
+[8.526099] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_generator_c.so\n'}
+[8.526869] (explore_lite_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_generator_c.so" to ""\n'}
+[8.527059] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[8.527418] (explore_lite_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.527668] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_introspection_c.so\n'}
+[8.528065] (explore_lite_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.528267] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_c.so\n'}
+[8.528566] (explore_lite_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_c.so" to ""\n'}
+[8.528747] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.528841] (explore_lite_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.528959] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[8.529048] (explore_lite_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.529167] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_cpp.so\n'}
+[8.529307] (explore_lite_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[8.597168] (explore_lite_msgs) StdoutLine: {'line': b"Listing '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs'...\n"}
+[8.597339] (explore_lite_msgs) StdoutLine: {'line': b"Compiling '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/__init__.py'...\n"}
+[8.597424] (explore_lite_msgs) StdoutLine: {'line': b"Listing '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg'...\n"}
+[8.597491] (explore_lite_msgs) StdoutLine: {'line': b"Compiling '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg/__init__.py'...\n"}
+[8.597556] (explore_lite_msgs) StdoutLine: {'line': b"Compiling '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages/explore_lite_msgs/msg/_explore_status.py'...\n"}
+[8.604092] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_generator_py.so\n'}
+[8.604493] (explore_lite_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/libexplore_lite_msgs__rosidl_generator_py.so" to ""\n'}
+[8.604647] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_cExport.cmake\n'}
+[8.604773] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.604880] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.604950] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.605022] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.605096] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.605161] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_cExport.cmake\n'}
+[8.605259] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.605324] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_cppExport.cmake\n'}
+[8.605388] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.605451] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.605518] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.605623] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.605691] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[8.605754] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/explore_lite_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.605816] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_pyExport.cmake\n'}
+[8.605893] (explore_lite_msgs) StdoutLine: {'line': b'-- Installing: /home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake/export_explore_lite_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.607644] (explore_lite_msgs) CommandEnded: {'returncode': 0}
+[8.622893] (-) TimerEvent: {}
+[8.633748] (explore_lite_msgs) JobEnded: {'identifier': 'explore_lite_msgs', 'rc': 0}
+[8.634837] (-) EventReactorShutdown: {}

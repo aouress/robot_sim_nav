@@ -1,0 +1,23 @@
+[0.706s] Invoking command in '/home/aiden/code/robot_sim_nav/src/relocalization': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aiden/code/robot_sim_nav/build/relocalization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/relocalization build --build-base /home/aiden/code/robot_sim_nav/build/relocalization/build install --record /home/aiden/code/robot_sim_nav/build/relocalization/install.log --single-version-externally-managed install_data
+[0.939s] running egg_info
+[0.957s] writing ../../build/relocalization/relocalization.egg-info/PKG-INFO
+[0.957s] writing dependency_links to ../../build/relocalization/relocalization.egg-info/dependency_links.txt
+[0.957s] writing entry points to ../../build/relocalization/relocalization.egg-info/entry_points.txt
+[0.957s] writing requirements to ../../build/relocalization/relocalization.egg-info/requires.txt
+[0.957s] writing top-level names to ../../build/relocalization/relocalization.egg-info/top_level.txt
+[0.993s] reading manifest file '../../build/relocalization/relocalization.egg-info/SOURCES.txt'
+[0.993s] adding license file 'LICENSE'
+[0.994s] writing manifest file '../../build/relocalization/relocalization.egg-info/SOURCES.txt'
+[0.994s] running build
+[0.994s] running build_py
+[0.994s] running install
+[0.998s] running install_lib
+[1.017s] running install_data
+[1.017s] copying launch/tb3_fixed_map_nav.launch.py -> /home/aiden/code/robot_sim_nav/install/relocalization/share/relocalization/launch
+[1.018s] running install_egg_info
+[1.037s] removing '/home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization-0.0.0-py3.12.egg-info' (and everything under it)
+[1.037s] Copying ../../build/relocalization/relocalization.egg-info to /home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization-0.0.0-py3.12.egg-info
+[1.037s] running install_scripts
+[1.153s] Installing relocalize_then_nav script to /home/aiden/code/robot_sim_nav/install/relocalization/lib/relocalization
+[1.153s] writing list of installed files to '/home/aiden/code/robot_sim_nav/build/relocalization/install.log'
+[1.171s] Invoked command in '/home/aiden/code/robot_sim_nav/src/relocalization' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aiden/code/robot_sim_nav/build/relocalization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/relocalization build --build-base /home/aiden/code/robot_sim_nav/build/relocalization/build install --record /home/aiden/code/robot_sim_nav/build/relocalization/install.log --single-version-externally-managed install_data

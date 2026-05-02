@@ -1,0 +1,4 @@
+[console_scripts]
+amcl_and_nav = mission_manager.amcl_and_nav:main
+mission_manager = mission_manager.mission_manager:main
+slam_and_explore = mission_manager.slam_and_explore:main

@@ -1,0 +1,301 @@
+[0.000000] (-) TimerEvent: {}
+[0.000499] (-) JobUnselected: {'identifier': 'explore_lite_msgs'}
+[0.000625] (-) JobUnselected: {'identifier': 'multirobot_map_merge'}
+[0.000650] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict({'explore_lite_msgs': '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs'})}
+[0.000677] (explore_lite) JobStarted: {'identifier': 'explore_lite'}
+[0.018111] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'cmake'}
+[0.019207] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '/home/aiden/code/robot_sim_nav/src/m-explore-ros2/explore', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aiden/code/robot_sim_nav/install/explore_lite'], 'cwd': '/home/aiden/code/robot_sim_nav/build/explore_lite', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'aiden', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aiden', 'CYCLONEDDS_URI': '/home/aiden/mil2/cyclone.xml', 'OLDPWD': '/home/aiden', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2805', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/home/aiden/mil2', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aiden/code/robot_sim_nav/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aiden', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aiden', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aiden-XPS-15-9530:@/tmp/.ICE-unix/2562,unix/aiden-XPS-15-9530:/tmp/.ICE-unix/2562', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/44373792_2c2c_4f25_a3b4_3ead7b11f4d2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.J8CGN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '37', 'AMENT_PREFIX_PATH': '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aiden/code/robot_sim_nav/build/explore_lite', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PICO_SDK_PATH': '/home/aiden/pico/pico-sdk', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/aiden/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.098996] (-) TimerEvent: {}
+[0.123273] (explore_lite) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199222] (-) TimerEvent: {}
+[0.200291] (explore_lite) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.228139] (explore_lite) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299497] (-) TimerEvent: {}
+[0.368618] (explore_lite) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.384268] (explore_lite) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.384717] (explore_lite) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.385227] (explore_lite) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.398843] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399562] (-) TimerEvent: {}
+[0.500069] (-) TimerEvent: {}
+[0.547490] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.562567] (explore_lite) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.562961] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.563667] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.564609] (explore_lite) StdoutLine: {'line': b'-- BuilD for ROS2: jazzy\n'}
+[0.569593] (explore_lite) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600250] (-) TimerEvent: {}
+[0.700565] (-) TimerEvent: {}
+[0.799602] (explore_lite) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.800680] (-) TimerEvent: {}
+[0.898344] (explore_lite) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.900829] (-) TimerEvent: {}
+[0.975281] (explore_lite) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.000964] (-) TimerEvent: {}
+[1.053896] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.075569] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.099735] (explore_lite) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101133] (-) TimerEvent: {}
+[1.127568] (explore_lite) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201335] (-) TimerEvent: {}
+[1.278691] (explore_lite) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.286566] (explore_lite) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.301532] (-) TimerEvent: {}
+[1.343914] (explore_lite) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.401725] (-) TimerEvent: {}
+[1.465587] (explore_lite) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.490995] (explore_lite) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.501905] (-) TimerEvent: {}
+[1.558140] (explore_lite) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.602098] (-) TimerEvent: {}
+[1.702512] (-) TimerEvent: {}
+[1.801672] (explore_lite) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[1.802702] (-) TimerEvent: {}
+[1.833254] (explore_lite) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.836011] (explore_lite) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.836164] (explore_lite) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.843087] (explore_lite) StdoutLine: {'line': b'-- Found nav2_msgs: 1.3.10 (/opt/ros/jazzy/share/nav2_msgs/cmake)\n'}
+[1.902891] (-) TimerEvent: {}
+[2.003255] (-) TimerEvent: {}
+[2.031313] (explore_lite) StdoutLine: {'line': b'-- Found map_msgs: 2.4.1 (/opt/ros/jazzy/share/map_msgs/cmake)\n'}
+[2.088592] (explore_lite) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[2.103434] (-) TimerEvent: {}
+[2.136913] (explore_lite) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.3.10 (/opt/ros/jazzy/share/nav2_costmap_2d/cmake)\n'}
+[2.203621] (-) TimerEvent: {}
+[2.303970] (-) TimerEvent: {}
+[2.334609] (explore_lite) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[2.392399] (explore_lite) StdoutLine: {'line': b'-- Found explore_lite_msgs: 1.0.0 (/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/share/explore_lite_msgs/cmake)\n'}
+[2.404147] (-) TimerEvent: {}
+[2.410082] (explore_lite) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.504352] (-) TimerEvent: {}
+[2.592379] (explore_lite) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[2.599953] (explore_lite) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.604484] (-) TimerEvent: {}
+[2.608580] (explore_lite) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.704729] (-) TimerEvent: {}
+[2.742127] (explore_lite) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.743932] (explore_lite) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.757640] (explore_lite) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.758138] (explore_lite) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/aiden/code/robot_sim_nav/src/m-explore-ros2/explore/include;$<BUILD_INTERFACE:/home/aiden/code/robot_sim_nav/src/m-explore-ros2/explore/include>\n'}
+[2.758362] (explore_lite) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.760429] (explore_lite) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.760741] (explore_lite) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.762535] (explore_lite) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.764375] (explore_lite) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.767092] (explore_lite) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.767388] (explore_lite) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.768692] (explore_lite) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.773397] (explore_lite) StdoutLine: {'line': b'-- Configuring done (2.7s)\n'}
+[2.804922] (-) TimerEvent: {}
+[2.819338] (explore_lite) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.830867] (explore_lite) StdoutLine: {'line': b'-- Build files have been written to: /home/aiden/code/robot_sim_nav/build/explore_lite\n'}
+[2.850698] (explore_lite) CommandEnded: {'returncode': 0}
+[2.851203] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'build'}
+[2.851235] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aiden/code/robot_sim_nav/build/explore_lite', '--', '-j20', '-l20'], 'cwd': '/home/aiden/code/robot_sim_nav/build/explore_lite', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'aiden', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aiden', 'CYCLONEDDS_URI': '/home/aiden/mil2/cyclone.xml', 'OLDPWD': '/home/aiden', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2805', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/home/aiden/mil2', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aiden/code/robot_sim_nav/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aiden', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aiden', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aiden-XPS-15-9530:@/tmp/.ICE-unix/2562,unix/aiden-XPS-15-9530:/tmp/.ICE-unix/2562', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/44373792_2c2c_4f25_a3b4_3ead7b11f4d2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.J8CGN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '37', 'AMENT_PREFIX_PATH': '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aiden/code/robot_sim_nav/build/explore_lite', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PICO_SDK_PATH': '/home/aiden/pico/pico-sdk', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/aiden/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.905158] (-) TimerEvent: {}
+[2.943615] (explore_lite) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.944384] (explore_lite) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.946914] (explore_lite) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o\x1b[0m\n'}
+[2.948424] (explore_lite) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o\x1b[0m\n'}
+[2.949157] (explore_lite) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o\x1b[0m\n'}
+[3.005413] (-) TimerEvent: {}
+[3.105899] (-) TimerEvent: {}
+[3.206339] (-) TimerEvent: {}
+[3.306775] (-) TimerEvent: {}
+[3.407213] (-) TimerEvent: {}
+[3.507656] (-) TimerEvent: {}
+[3.608137] (-) TimerEvent: {}
+[3.708765] (-) TimerEvent: {}
+[3.755951] (explore_lite) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.808916] (-) TimerEvent: {}
+[3.819510] (explore_lite) StdoutLine: {'line': b'[ 60%] Built target gtest_main\n'}
+[3.909195] (-) TimerEvent: {}
+[4.009806] (-) TimerEvent: {}
+[4.110412] (-) TimerEvent: {}
+[4.211017] (-) TimerEvent: {}
+[4.311602] (-) TimerEvent: {}
+[4.412258] (-) TimerEvent: {}
+[4.512940] (-) TimerEvent: {}
+[4.613583] (-) TimerEvent: {}
+[4.713954] (-) TimerEvent: {}
+[4.814431] (-) TimerEvent: {}
+[4.914709] (-) TimerEvent: {}
+[5.015013] (-) TimerEvent: {}
+[5.115399] (-) TimerEvent: {}
+[5.215694] (-) TimerEvent: {}
+[5.316089] (-) TimerEvent: {}
+[5.416479] (-) TimerEvent: {}
+[5.516787] (-) TimerEvent: {}
+[5.617182] (-) TimerEvent: {}
+[5.717595] (-) TimerEvent: {}
+[5.817903] (-) TimerEvent: {}
+[5.918296] (-) TimerEvent: {}
+[6.018770] (-) TimerEvent: {}
+[6.119316] (-) TimerEvent: {}
+[6.219743] (-) TimerEvent: {}
+[6.320279] (-) TimerEvent: {}
+[6.420718] (-) TimerEvent: {}
+[6.521253] (-) TimerEvent: {}
+[6.621697] (-) TimerEvent: {}
+[6.722231] (-) TimerEvent: {}
+[6.822661] (-) TimerEvent: {}
+[6.923201] (-) TimerEvent: {}
+[7.023695] (-) TimerEvent: {}
+[7.076609] (explore_lite) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[7.123865] (-) TimerEvent: {}
+[7.160379] (explore_lite) StdoutLine: {'line': b'[ 70%] Built target gtest\n'}
+[7.194278] (explore_lite) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o\x1b[0m\n'}
+[7.224093] (-) TimerEvent: {}
+[7.324523] (-) TimerEvent: {}
+[7.424959] (-) TimerEvent: {}
+[7.525504] (-) TimerEvent: {}
+[7.625948] (-) TimerEvent: {}
+[7.726500] (-) TimerEvent: {}
+[7.826948] (-) TimerEvent: {}
+[7.927505] (-) TimerEvent: {}
+[8.027950] (-) TimerEvent: {}
+[8.128500] (-) TimerEvent: {}
+[8.228952] (-) TimerEvent: {}
+[8.293021] (explore_lite) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable test_explore\x1b[0m\n'}
+[8.329220] (-) TimerEvent: {}
+[8.429654] (-) TimerEvent: {}
+[8.452738] (explore_lite) StdoutLine: {'line': b'[ 90%] Built target test_explore\n'}
+[8.529903] (-) TimerEvent: {}
+[8.630399] (-) TimerEvent: {}
+[8.730891] (-) TimerEvent: {}
+[8.831386] (-) TimerEvent: {}
+[8.931895] (-) TimerEvent: {}
+[9.032378] (-) TimerEvent: {}
+[9.132738] (-) TimerEvent: {}
+[9.233225] (-) TimerEvent: {}
+[9.333731] (-) TimerEvent: {}
+[9.434232] (-) TimerEvent: {}
+[9.534800] (-) TimerEvent: {}
+[9.635324] (-) TimerEvent: {}
+[9.735822] (-) TimerEvent: {}
+[9.836363] (-) TimerEvent: {}
+[9.936867] (-) TimerEvent: {}
+[10.037384] (-) TimerEvent: {}
+[10.137911] (-) TimerEvent: {}
+[10.238564] (-) TimerEvent: {}
+[10.338972] (-) TimerEvent: {}
+[10.439360] (-) TimerEvent: {}
+[10.539729] (-) TimerEvent: {}
+[10.640098] (-) TimerEvent: {}
+[10.740468] (-) TimerEvent: {}
+[10.840841] (-) TimerEvent: {}
+[10.941214] (-) TimerEvent: {}
+[11.041627] (-) TimerEvent: {}
+[11.141989] (-) TimerEvent: {}
+[11.242367] (-) TimerEvent: {}
+[11.342784] (-) TimerEvent: {}
+[11.443163] (-) TimerEvent: {}
+[11.543540] (-) TimerEvent: {}
+[11.643919] (-) TimerEvent: {}
+[11.744313] (-) TimerEvent: {}
+[11.844716] (-) TimerEvent: {}
+[11.945092] (-) TimerEvent: {}
+[12.045465] (-) TimerEvent: {}
+[12.145827] (-) TimerEvent: {}
+[12.246202] (-) TimerEvent: {}
+[12.346593] (-) TimerEvent: {}
+[12.446970] (-) TimerEvent: {}
+[12.547347] (-) TimerEvent: {}
+[12.647735] (-) TimerEvent: {}
+[12.748108] (-) TimerEvent: {}
+[12.848499] (-) TimerEvent: {}
+[12.948869] (-) TimerEvent: {}
+[13.049233] (-) TimerEvent: {}
+[13.149630] (-) TimerEvent: {}
+[13.249993] (-) TimerEvent: {}
+[13.350290] (-) TimerEvent: {}
+[13.450682] (-) TimerEvent: {}
+[13.551052] (-) TimerEvent: {}
+[13.651361] (-) TimerEvent: {}
+[13.751649] (-) TimerEvent: {}
+[13.851944] (-) TimerEvent: {}
+[13.952345] (-) TimerEvent: {}
+[14.052720] (-) TimerEvent: {}
+[14.153096] (-) TimerEvent: {}
+[14.253403] (-) TimerEvent: {}
+[14.353821] (-) TimerEvent: {}
+[14.454199] (-) TimerEvent: {}
+[14.554597] (-) TimerEvent: {}
+[14.654968] (-) TimerEvent: {}
+[14.755355] (-) TimerEvent: {}
+[14.855630] (-) TimerEvent: {}
+[14.955995] (-) TimerEvent: {}
+[15.056378] (-) TimerEvent: {}
+[15.156761] (-) TimerEvent: {}
+[15.257128] (-) TimerEvent: {}
+[15.357504] (-) TimerEvent: {}
+[15.457874] (-) TimerEvent: {}
+[15.558245] (-) TimerEvent: {}
+[15.658619] (-) TimerEvent: {}
+[15.758981] (-) TimerEvent: {}
+[15.859367] (-) TimerEvent: {}
+[15.959859] (-) TimerEvent: {}
+[16.060226] (-) TimerEvent: {}
+[16.160601] (-) TimerEvent: {}
+[16.260962] (-) TimerEvent: {}
+[16.361331] (-) TimerEvent: {}
+[16.461709] (-) TimerEvent: {}
+[16.561992] (-) TimerEvent: {}
+[16.662391] (-) TimerEvent: {}
+[16.762761] (-) TimerEvent: {}
+[16.863141] (-) TimerEvent: {}
+[16.963541] (-) TimerEvent: {}
+[17.063943] (-) TimerEvent: {}
+[17.164365] (-) TimerEvent: {}
+[17.264764] (-) TimerEvent: {}
+[17.365157] (-) TimerEvent: {}
+[17.452458] (explore_lite) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable explore\x1b[0m\n'}
+[17.465353] (-) TimerEvent: {}
+[17.565711] (-) TimerEvent: {}
+[17.666087] (-) TimerEvent: {}
+[17.766470] (-) TimerEvent: {}
+[17.866869] (-) TimerEvent: {}
+[17.967244] (-) TimerEvent: {}
+[18.067836] (-) TimerEvent: {}
+[18.168253] (-) TimerEvent: {}
+[18.268637] (-) TimerEvent: {}
+[18.369068] (-) TimerEvent: {}
+[18.469517] (-) TimerEvent: {}
+[18.546032] (explore_lite) StdoutLine: {'line': b'[100%] Built target explore\n'}
+[18.561166] (explore_lite) CommandEnded: {'returncode': 0}
+[18.562092] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'install'}
+[18.569605] (-) TimerEvent: {}
+[18.576147] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aiden/code/robot_sim_nav/build/explore_lite'], 'cwd': '/home/aiden/code/robot_sim_nav/build/explore_lite', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'aiden', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aiden', 'CYCLONEDDS_URI': '/home/aiden/mil2/cyclone.xml', 'OLDPWD': '/home/aiden', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2805', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/home/aiden/mil2', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aiden/code/robot_sim_nav/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aiden', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aiden', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aiden-XPS-15-9530:@/tmp/.ICE-unix/2562,unix/aiden-XPS-15-9530:/tmp/.ICE-unix/2562', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/44373792_2c2c_4f25_a3b4_3ead7b11f4d2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.J8CGN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '37', 'AMENT_PREFIX_PATH': '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aiden/code/robot_sim_nav/build/explore_lite', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PICO_SDK_PATH': '/home/aiden/pico/pico-sdk', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/aiden/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[18.589051] (explore_lite) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.589856] (explore_lite) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.590457] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/include/explore//costmap_client.h\n'}
+[18.603624] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/include/explore//costmap_tools.h\n'}
+[18.617048] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/include/explore//explore.h\n'}
+[18.628435] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/include/explore//frontier_search.h\n'}
+[18.640601] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/config/params.yaml\n'}
+[18.653387] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/config/params_costmap.yaml\n'}
+[18.664982] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/launch/explore.launch.py\n'}
+[18.669691] (-) TimerEvent: {}
+[18.676729] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/lib/explore_lite/explore\n'}
+[18.689356] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite\n'}
+[18.701389] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite\n'}
+[18.714667] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh\n'}
+[18.726203] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv\n'}
+[18.737526] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/environment/path.sh\n'}
+[18.748432] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/environment/path.dsv\n'}
+[18.758754] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/local_setup.bash\n'}
+[18.769125] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/local_setup.sh\n'}
+[18.769799] (-) TimerEvent: {}
+[18.780691] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/local_setup.zsh\n'}
+[18.792379] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/local_setup.dsv\n'}
+[18.803858] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/package.dsv\n'}
+[18.816174] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/ament_index/resource_index/packages/explore_lite\n'}
+[18.827614] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.838646] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.849751] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake\n'}
+[18.859565] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake\n'}
+[18.869993] (-) TimerEvent: {}
+[18.870481] (explore_lite) StdoutLine: {'line': b'-- Symlinking: /home/aiden/code/robot_sim_nav/install/explore_lite/share/explore_lite/package.xml\n'}
+[18.884772] (explore_lite) CommandEnded: {'returncode': 0}
+[18.902954] (explore_lite) JobEnded: {'identifier': 'explore_lite', 'rc': 0}
+[18.904335] (-) EventReactorShutdown: {}

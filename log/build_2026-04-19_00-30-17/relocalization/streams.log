@@ -1,0 +1,38 @@
+[0.776s] Invoking command in '/home/aiden/code/robot_sim_nav/src/relocalization': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aiden/code/robot_sim_nav/build/relocalization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/relocalization build --build-base /home/aiden/code/robot_sim_nav/build/relocalization/build install --record /home/aiden/code/robot_sim_nav/build/relocalization/install.log --single-version-externally-managed install_data
+[1.019s] running egg_info
+[1.019s] creating ../../build/relocalization/relocalization.egg-info
+[1.038s] writing ../../build/relocalization/relocalization.egg-info/PKG-INFO
+[1.039s] writing dependency_links to ../../build/relocalization/relocalization.egg-info/dependency_links.txt
+[1.039s] writing entry points to ../../build/relocalization/relocalization.egg-info/entry_points.txt
+[1.039s] writing requirements to ../../build/relocalization/relocalization.egg-info/requires.txt
+[1.039s] writing top-level names to ../../build/relocalization/relocalization.egg-info/top_level.txt
+[1.039s] writing manifest file '../../build/relocalization/relocalization.egg-info/SOURCES.txt'
+[1.078s] reading manifest file '../../build/relocalization/relocalization.egg-info/SOURCES.txt'
+[1.078s] adding license file 'LICENSE'
+[1.078s] writing manifest file '../../build/relocalization/relocalization.egg-info/SOURCES.txt'
+[1.079s] running build
+[1.079s] running build_py
+[1.079s] creating /home/aiden/code/robot_sim_nav/build/relocalization/build
+[1.079s] creating /home/aiden/code/robot_sim_nav/build/relocalization/build/lib
+[1.079s] creating /home/aiden/code/robot_sim_nav/build/relocalization/build/lib/relocalization
+[1.079s] copying relocalization/relocalize_then_nav.py -> /home/aiden/code/robot_sim_nav/build/relocalization/build/lib/relocalization
+[1.079s] copying relocalization/__init__.py -> /home/aiden/code/robot_sim_nav/build/relocalization/build/lib/relocalization
+[1.079s] running install
+[1.084s] running install_lib
+[1.103s] creating /home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization
+[1.103s] copying /home/aiden/code/robot_sim_nav/build/relocalization/build/lib/relocalization/relocalize_then_nav.py -> /home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization
+[1.103s] copying /home/aiden/code/robot_sim_nav/build/relocalization/build/lib/relocalization/__init__.py -> /home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization
+[1.103s] byte-compiling /home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization/relocalize_then_nav.py to relocalize_then_nav.cpython-312.pyc
+[1.104s] byte-compiling /home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization/__init__.py to __init__.cpython-312.pyc
+[1.105s] running install_data
+[1.105s] creating /home/aiden/code/robot_sim_nav/install/relocalization/share/ament_index
+[1.105s] creating /home/aiden/code/robot_sim_nav/install/relocalization/share/ament_index/resource_index
+[1.105s] creating /home/aiden/code/robot_sim_nav/install/relocalization/share/ament_index/resource_index/packages
+[1.105s] copying resource/relocalization -> /home/aiden/code/robot_sim_nav/install/relocalization/share/ament_index/resource_index/packages
+[1.105s] copying package.xml -> /home/aiden/code/robot_sim_nav/install/relocalization/share/relocalization
+[1.105s] running install_egg_info
+[1.125s] Copying ../../build/relocalization/relocalization.egg-info to /home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization-0.0.0-py3.12.egg-info
+[1.126s] running install_scripts
+[1.248s] Installing relocalize_then_nav script to /home/aiden/code/robot_sim_nav/install/relocalization/lib/relocalization
+[1.248s] writing list of installed files to '/home/aiden/code/robot_sim_nav/build/relocalization/install.log'
+[1.268s] Invoked command in '/home/aiden/code/robot_sim_nav/src/relocalization' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aiden/code/robot_sim_nav/build/relocalization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/relocalization build --build-base /home/aiden/code/robot_sim_nav/build/relocalization/build install --record /home/aiden/code/robot_sim_nav/build/relocalization/install.log --single-version-externally-managed install_data

@@ -1,0 +1,25 @@
+[0.892s] Invoking command in '/home/aiden/code/robot_sim_nav/src/path_to_nav': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aiden/code/robot_sim_nav/build/path_to_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aiden/code/robot_sim_nav/install/path_to_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_to_nav build --build-base /home/aiden/code/robot_sim_nav/build/path_to_nav/build install --record /home/aiden/code/robot_sim_nav/build/path_to_nav/install.log --single-version-externally-managed install_data
+[1.157s] running egg_info
+[1.179s] writing ../../build/path_to_nav/path_to_nav.egg-info/PKG-INFO
+[1.179s] writing dependency_links to ../../build/path_to_nav/path_to_nav.egg-info/dependency_links.txt
+[1.179s] writing entry points to ../../build/path_to_nav/path_to_nav.egg-info/entry_points.txt
+[1.179s] writing requirements to ../../build/path_to_nav/path_to_nav.egg-info/requires.txt
+[1.179s] writing top-level names to ../../build/path_to_nav/path_to_nav.egg-info/top_level.txt
+[1.228s] reading manifest file '../../build/path_to_nav/path_to_nav.egg-info/SOURCES.txt'
+[1.228s] adding license file 'LICENSE'
+[1.228s] writing manifest file '../../build/path_to_nav/path_to_nav.egg-info/SOURCES.txt'
+[1.228s] running build
+[1.228s] running build_py
+[1.228s] copying path_to_nav/astar_nav.py -> /home/aiden/code/robot_sim_nav/build/path_to_nav/build/lib/path_to_nav
+[1.228s] running install
+[1.234s] running install_lib
+[1.259s] copying /home/aiden/code/robot_sim_nav/build/path_to_nav/build/lib/path_to_nav/astar_nav.py -> /home/aiden/code/robot_sim_nav/install/path_to_nav/lib/python3.12/site-packages/path_to_nav
+[1.260s] byte-compiling /home/aiden/code/robot_sim_nav/install/path_to_nav/lib/python3.12/site-packages/path_to_nav/astar_nav.py to astar_nav.cpython-312.pyc
+[1.265s] running install_data
+[1.266s] running install_egg_info
+[1.303s] removing '/home/aiden/code/robot_sim_nav/install/path_to_nav/lib/python3.12/site-packages/path_to_nav-0.0.0-py3.12.egg-info' (and everything under it)
+[1.303s] Copying ../../build/path_to_nav/path_to_nav.egg-info to /home/aiden/code/robot_sim_nav/install/path_to_nav/lib/python3.12/site-packages/path_to_nav-0.0.0-py3.12.egg-info
+[1.303s] running install_scripts
+[1.441s] Installing astar_nav script to /home/aiden/code/robot_sim_nav/install/path_to_nav/lib/path_to_nav
+[1.441s] writing list of installed files to '/home/aiden/code/robot_sim_nav/build/path_to_nav/install.log'
+[1.463s] Invoked command in '/home/aiden/code/robot_sim_nav/src/path_to_nav' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aiden/code/robot_sim_nav/build/path_to_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aiden/code/robot_sim_nav/install/path_to_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_to_nav build --build-base /home/aiden/code/robot_sim_nav/build/path_to_nav/build install --record /home/aiden/code/robot_sim_nav/build/path_to_nav/install.log --single-version-externally-managed install_data

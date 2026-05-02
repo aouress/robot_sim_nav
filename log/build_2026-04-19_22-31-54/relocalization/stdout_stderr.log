@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/relocalization/relocalization.egg-info/PKG-INFO
+writing dependency_links to ../../build/relocalization/relocalization.egg-info/dependency_links.txt
+writing entry points to ../../build/relocalization/relocalization.egg-info/entry_points.txt
+writing requirements to ../../build/relocalization/relocalization.egg-info/requires.txt
+writing top-level names to ../../build/relocalization/relocalization.egg-info/top_level.txt
+reading manifest file '../../build/relocalization/relocalization.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/relocalization/relocalization.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/tb3_fixed_map_nav.launch.py -> /home/aiden/code/robot_sim_nav/install/relocalization/share/relocalization/launch
+running install_egg_info
+removing '/home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/relocalization/relocalization.egg-info to /home/aiden/code/robot_sim_nav/install/relocalization/lib/python3.12/site-packages/relocalization-0.0.0-py3.12.egg-info
+running install_scripts
+Installing relocalize_then_nav script to /home/aiden/code/robot_sim_nav/install/relocalization/lib/relocalization
+writing list of installed files to '/home/aiden/code/robot_sim_nav/build/relocalization/install.log'

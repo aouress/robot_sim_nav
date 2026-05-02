@@ -1,0 +1,2 @@
+[console_scripts]
+explore_supervisor = explore_supervisor.explore_supervisor:main

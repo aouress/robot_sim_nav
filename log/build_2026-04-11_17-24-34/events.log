@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000327] (-) JobUnselected: {'identifier': 'explore_lite_msgs'}
+[0.000389] (-) JobUnselected: {'identifier': 'multirobot_map_merge'}
+[0.000423] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict({'explore_lite_msgs': '/home/aiden/code/robot_sim_nav/install/explore_lite_msgs'})}
+[0.000460] (explore_lite) JobStarted: {'identifier': 'explore_lite'}
+[0.020874] (explore_lite) JobEnded: {'identifier': 'explore_lite', 'rc': 1}
+[0.031432] (-) EventReactorShutdown: {}

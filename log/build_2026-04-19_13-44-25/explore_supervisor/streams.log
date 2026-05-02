@@ -1,0 +1,25 @@
+[0.899s] Invoking command in '/home/aiden/code/robot_sim_nav/src/explore_supervisor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aiden/code/robot_sim_nav/build/explore_supervisor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/explore_supervisor build --build-base /home/aiden/code/robot_sim_nav/build/explore_supervisor/build install --record /home/aiden/code/robot_sim_nav/build/explore_supervisor/install.log --single-version-externally-managed install_data
+[1.138s] running egg_info
+[1.159s] writing ../../build/explore_supervisor/explore_supervisor.egg-info/PKG-INFO
+[1.160s] writing dependency_links to ../../build/explore_supervisor/explore_supervisor.egg-info/dependency_links.txt
+[1.160s] writing entry points to ../../build/explore_supervisor/explore_supervisor.egg-info/entry_points.txt
+[1.160s] writing requirements to ../../build/explore_supervisor/explore_supervisor.egg-info/requires.txt
+[1.160s] writing top-level names to ../../build/explore_supervisor/explore_supervisor.egg-info/top_level.txt
+[1.201s] reading manifest file '../../build/explore_supervisor/explore_supervisor.egg-info/SOURCES.txt'
+[1.201s] adding license file 'LICENSE'
+[1.202s] writing manifest file '../../build/explore_supervisor/explore_supervisor.egg-info/SOURCES.txt'
+[1.202s] running build
+[1.202s] running build_py
+[1.202s] copying explore_supervisor/explore_supervisor.py -> /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib/explore_supervisor
+[1.203s] running install
+[1.208s] running install_lib
+[1.228s] copying /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib/explore_supervisor/explore_supervisor.py -> /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor
+[1.228s] byte-compiling /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor/explore_supervisor.py to explore_supervisor.cpython-312.pyc
+[1.229s] running install_data
+[1.229s] running install_egg_info
+[1.254s] removing '/home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor-0.0.0-py3.12.egg-info' (and everything under it)
+[1.254s] Copying ../../build/explore_supervisor/explore_supervisor.egg-info to /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor-0.0.0-py3.12.egg-info
+[1.254s] running install_scripts
+[1.390s] Installing explore_supervisor script to /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/explore_supervisor
+[1.390s] writing list of installed files to '/home/aiden/code/robot_sim_nav/build/explore_supervisor/install.log'
+[1.409s] Invoked command in '/home/aiden/code/robot_sim_nav/src/explore_supervisor' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aiden/code/robot_sim_nav/build/explore_supervisor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/explore_supervisor build --build-base /home/aiden/code/robot_sim_nav/build/explore_supervisor/build install --record /home/aiden/code/robot_sim_nav/build/explore_supervisor/install.log --single-version-externally-managed install_data

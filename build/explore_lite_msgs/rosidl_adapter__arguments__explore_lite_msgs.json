@@ -1,0 +1,6 @@
+{
+  "package_name": "explore_lite_msgs",
+  "non_idl_tuples": [
+    "/home/aiden/code/robot_sim_nav/src/m-explore-ros2/explore_lite_msgs:msg/ExploreStatus.msg"
+  ]
+}

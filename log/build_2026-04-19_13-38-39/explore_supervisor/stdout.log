@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/explore_supervisor/explore_supervisor.egg-info
+writing ../../build/explore_supervisor/explore_supervisor.egg-info/PKG-INFO
+writing dependency_links to ../../build/explore_supervisor/explore_supervisor.egg-info/dependency_links.txt
+writing entry points to ../../build/explore_supervisor/explore_supervisor.egg-info/entry_points.txt
+writing requirements to ../../build/explore_supervisor/explore_supervisor.egg-info/requires.txt
+writing top-level names to ../../build/explore_supervisor/explore_supervisor.egg-info/top_level.txt
+writing manifest file '../../build/explore_supervisor/explore_supervisor.egg-info/SOURCES.txt'
+reading manifest file '../../build/explore_supervisor/explore_supervisor.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/explore_supervisor/explore_supervisor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aiden/code/robot_sim_nav/build/explore_supervisor/build
+creating /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib
+creating /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib/explore_supervisor
+copying explore_supervisor/__init__.py -> /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib/explore_supervisor
+copying explore_supervisor/explorer_supervisor.py -> /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib/explore_supervisor
+running install
+running install_lib
+creating /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor
+copying /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib/explore_supervisor/__init__.py -> /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor
+copying /home/aiden/code/robot_sim_nav/build/explore_supervisor/build/lib/explore_supervisor/explorer_supervisor.py -> /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor
+byte-compiling /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor/explorer_supervisor.py to explorer_supervisor.cpython-312.pyc
+running install_data
+creating /home/aiden/code/robot_sim_nav/install/explore_supervisor/share/ament_index
+creating /home/aiden/code/robot_sim_nav/install/explore_supervisor/share/ament_index/resource_index
+creating /home/aiden/code/robot_sim_nav/install/explore_supervisor/share/ament_index/resource_index/packages
+copying resource/explore_supervisor -> /home/aiden/code/robot_sim_nav/install/explore_supervisor/share/ament_index/resource_index/packages
+copying package.xml -> /home/aiden/code/robot_sim_nav/install/explore_supervisor/share/explore_supervisor
+running install_egg_info
+Copying ../../build/explore_supervisor/explore_supervisor.egg-info to /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/python3.12/site-packages/explore_supervisor-0.0.0-py3.12.egg-info
+running install_scripts
+Installing explore_supervisor script to /home/aiden/code/robot_sim_nav/install/explore_supervisor/lib/explore_supervisor
+writing list of installed files to '/home/aiden/code/robot_sim_nav/build/explore_supervisor/install.log'

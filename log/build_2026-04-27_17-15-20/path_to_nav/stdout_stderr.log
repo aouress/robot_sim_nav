@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/path_to_nav/path_to_nav.egg-info
+writing ../../build/path_to_nav/path_to_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/path_to_nav/path_to_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/path_to_nav/path_to_nav.egg-info/entry_points.txt
+writing requirements to ../../build/path_to_nav/path_to_nav.egg-info/requires.txt
+writing top-level names to ../../build/path_to_nav/path_to_nav.egg-info/top_level.txt
+writing manifest file '../../build/path_to_nav/path_to_nav.egg-info/SOURCES.txt'
+reading manifest file '../../build/path_to_nav/path_to_nav.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/path_to_nav/path_to_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aiden/code/robot_sim_nav/build/path_to_nav/build
+creating /home/aiden/code/robot_sim_nav/build/path_to_nav/build/lib
+creating /home/aiden/code/robot_sim_nav/build/path_to_nav/build/lib/path_to_nav
+copying path_to_nav/__init__.py -> /home/aiden/code/robot_sim_nav/build/path_to_nav/build/lib/path_to_nav
+copying path_to_nav/astar_nav.py -> /home/aiden/code/robot_sim_nav/build/path_to_nav/build/lib/path_to_nav
+running install
+running install_lib
+creating /home/aiden/code/robot_sim_nav/install/path_to_nav/lib/python3.12/site-packages/path_to_nav
+copying /home/aiden/code/robot_sim_nav/build/path_to_nav/build/lib/path_to_nav/__init__.py -> /home/aiden/code/robot_sim_nav/install/path_to_nav/lib/python3.12/site-packages/path_to_nav
+copying /home/aiden/code/robot_sim_nav/build/path_to_nav/build/lib/path_to_nav/astar_nav.py -> /home/aiden/code/robot_sim_nav/install/path_to_nav/lib/python3.12/site-packages/path_to_nav
+byte-compiling /home/aiden/code/robot_sim_nav/install/path_to_nav/lib/python3.12/site-packages/path_to_nav/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/aiden/code/robot_sim_nav/install/path_to_nav/lib/python3.12/site-packages/path_to_nav/astar_nav.py to astar_nav.cpython-312.pyc
+running install_data
+creating /home/aiden/code/robot_sim_nav/install/path_to_nav/share/ament_index
+creating /home/aiden/code/robot_sim_nav/install/path_to_nav/share/ament_index/resource_index
+creating /home/aiden/code/robot_sim_nav/install/path_to_nav/share/ament_index/resource_index/packages
+copying resource/path_to_nav -> /home/aiden/code/robot_sim_nav/install/path_to_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/aiden/code/robot_sim_nav/install/path_to_nav/share/path_to_nav
+running install_egg_info
+Copying ../../build/path_to_nav/path_to_nav.egg-info to /home/aiden/code/robot_sim_nav/install/path_to_nav/lib/python3.12/site-packages/path_to_nav-0.0.0-py3.12.egg-info
+running install_scripts
+Installing astar_nav script to /home/aiden/code/robot_sim_nav/install/path_to_nav/lib/path_to_nav
+writing list of installed files to '/home/aiden/code/robot_sim_nav/build/path_to_nav/install.log'
