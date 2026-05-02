@@ -30,3 +30,4 @@ In each of the following terminals, run
 >> cd ~code/robot_sim_nav
 >> source install/setup.bash
 >> ros2 run path_to_nav astar_nav
+- To visualize the path planning and exploration of the grid, you need to add the views in Rviz (see video for exact steps).
